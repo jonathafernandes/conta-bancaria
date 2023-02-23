@@ -1,3 +1,5 @@
+require_relative 'cliente'
+
 class Conta
   attr_reader :numero, :titular, :saldo #Método para definir os argumentos somente como leitura
   attr_writer :saldo # #Método para definir os argumentos para alterar
